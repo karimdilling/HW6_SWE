@@ -10,7 +10,7 @@ public class Player {
     }
 
     public void start() {
-            if (this.type.equals("computer")) this.cardNumber = bet.play();
+        if (this.type.equals("computer")) this.cardNumber = bet.play();
             else {
                 for (int i = 0; i < 5; i++) {
                     this.cardNumber = bet.play();
@@ -20,8 +20,8 @@ public class Player {
                         Scanner scanner = new Scanner(System.in);
                         boolean userSelected = scanner.nextBoolean();
                         if (!userSelected) break;
-                    }
                 }
             }
+        }
     }
 }
