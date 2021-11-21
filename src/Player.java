@@ -20,8 +20,8 @@ public class Player {
                         Scanner scanner = new Scanner(System.in);
                         boolean userSelected = scanner.nextBoolean();
                         if (!userSelected) break;
+                    }
                 }
             }
-        }
     }
 }
